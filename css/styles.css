@@ -597,8 +597,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 .input-button{
     display: flex;
-    gap: 24px;
+    
+
   
+}
+.label-gap{
+gap: 24px;
 }
 .form-text{
     font-family: "Roboto", sans-serif;
@@ -609,7 +613,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:var(--white);
-        padding-bottom: 16px;
+        margin-bottom: 16px;
         
 }
 .subscirbe-button{
