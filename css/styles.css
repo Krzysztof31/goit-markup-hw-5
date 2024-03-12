@@ -584,4 +584,141 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
         bottom: -1px;
         height: 4px;
         background-color: #404bbf;
-        border-radius: 2px;}
+        border-radius: 2px;
+    
+}
+
+
+
+.email-fotter{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+}
+.input-button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 16px;
+}
+.label{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--white);
+        padding-bottom: 16px;
+        
+}
+.subscirbe-button{
+   
+ background-color:var(--iris);
+ font-family:'Roboto',sans-serif;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: var(--white);
+ cursor: pointer;
+ text-align: center;
+border-radius: 4px;
+    padding: 8px 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscirbe-button:hover {
+    background-color: var(--ocean);
+}
+
+.subscirbe-button:focus {
+    background-color: var(--ocean);
+}
+
+.subscirbe-button:active {
+    background-color: var(--ocean);
+}
+
+.input{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        
+    
+        line-height: 24px; 
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: var(--white);
+        border: 1px solid #fff;
+            border-radius: 4px;
+            width: 264px;
+            height: 40px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+            background:var(--navy-blue);
+            padding: 8px 16px;
+}
+/* modal */
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(46, 47, 66, 0.4);
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-open{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    min-height: 584px;
+    background-color: var(--dairy);
+    border-radius: 4px;
+}
+.modal-paragraf{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        padding-left: 24px;
+        padding-top: 72px;
+        padding-right: 24px;
+}
+.input-list{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 8px;
+}
+.modal-input{
+    flex-direction: column;
+    display: flex;
+    width: 360px;
+        height: 58px;
+}
+.modal-input-text{
+    flex-direction: column;
+    display:flex;
+    width: 360px;
+    height: 138px;
+}
