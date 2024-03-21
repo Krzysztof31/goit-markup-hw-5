@@ -700,25 +700,33 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;}
     .closing-button{
+        position: absolute;
+        border-radius: 50%;
         top: 24px;
         right: 24px;
         width: 24px;
         height: 24px;
-        border-radius: -50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:var(--dairy);
+        background-color:var(--cornflower);
         border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.closing-button:hover{
+background-color: var(--ocean);
+border: none;
+}
 
+.closing-button:focus{
+    background-color: var(--ocean);
+    border: none;
 
-
-    }
+}
 .modal-paragraf{
     font-family: "Roboto", sans-serif;
         font-weight: 500;

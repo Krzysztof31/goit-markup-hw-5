@@ -442,54 +442,74 @@
     </Footer>
     <div class="backdrop">
         <div class="modal">
-            <button type="button" class="closing-button"></button>
+            <button type="button" class="closing-button">
+            <svg  class="" width="8" height="8">
+                <use href=""></use>
+            </svg>
+            </button>
         <p class="modal-paragraf">Leave your contacts and we will call you back</p>
         <form class="input-list">
                 <div class="input-div">
-                <label class="modal-input" for="user-name">Name</label>
+                <label for="user-name" class="modal-input">Name</label>
                  <div class="input-icon">
                 <input
                  type="text"
                  name="user-name"
                  class="input-first">
+                 <svg class="" widht="18" heigt="24">
+                    <use hreff=""></use>
+                 </svg>
                 </div>
                  </div>
-            
-            <div class="input-div">
-                <label class="modal-input">Phone</label>
-                <div>
-                 <input
-                 type="text"
-                 name="phone"
-                 class="input-first">
+                <div class="input-div">
+                    <label for="phone" class="modal-input">Phone</label>
+                    <div class="input-icon">
+                        <input type="tel" name="phone" class="input-first" pattern="^/d+$">
+                        <svg class="" widht="18" heigt="24">
+                            <use hreff=""></use>
+                        </svg>
+                    </div>
                 </div>
-            </div>
+                <div class="input-div">
+                    <label for="user-name" class="modal-input">Email</label>
+                    <div class="input-icon">
+                        <input type="text" name="user-name" class="input-first" pattern="" required >
+                        <svg class="" widht="18" heigt="24">
+                            <use hreff=""></use>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <label for="user-name" class="">Comment</label>
+                    <textarea class="" name="user-comment" placeholder="Text input" id="=user-comment"></textarea>
+                </div>
+                <div class="">
+                    
+                        <input type="checkbox" name="user-privacy" class="" id="user-privacy" values="true" required>
+                        <label for="user-privacy" class="">
+                            <span class="">
+                        <svg class="" widht="10" heigt="8">
+                            <use hreff=""></use>
+                        </svg>
+                    </span>
+                    <p>I accept the terms and conditions of the
+                        <a href="" class="">Privacy Policy</a>
+                    </p>
+                    </label>
+                    </div>
+                    <button class="" type="submit" name="submit">submit</button>
+                
+            
           
 
-            <div class="input-div">
-                <label class="modal-input">Email</label>
-                <div>
-                <input
-                type="email"
-                name="email"
-                class="input-first"></div></div>
            
-        <div class="input-div">
-                <label class="modal-input">Comment</label>
-                <div>
-                <input type="text"
-                name="Comment"
-                class="input-first">
-            </div>
-        </div>
-                <!-- chech box -->
-            <button></button>
+           
+        
+        
+            
        </form>
-        
-        
-</div>
     </div>
-
+</div>
     
 </body>
 </html>
