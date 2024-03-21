@@ -455,6 +455,7 @@
                 <input
                  type="text"
                  name="user-name"
+                 id="user-name"
                  class="input-first">
                  <svg class="" widht="18" heigt="24">
                     <use hreff=""></use>
@@ -464,7 +465,12 @@
                 <div class="input-div">
                     <label for="phone" class="modal-input">Phone</label>
                     <div class="input-icon">
-                        <input type="tel" name="phone" class="input-first" pattern="^/d+$">
+                        <input 
+                        type="tel"
+                        name="phone"
+                        id="phone"
+                        class="input-first" 
+                        pattern="^/d+$">
                         <svg class="" widht="18" heigt="24">
                             <use hreff=""></use>
                         </svg>
@@ -473,7 +479,13 @@
                 <div class="input-div">
                     <label for="user-name" class="modal-input">Email</label>
                     <div class="input-icon">
-                        <input type="text" name="user-name" class="input-first" pattern="" required >
+                        <input 
+                        type="text" 
+                        name="user-name"
+                        id="email" 
+                        class="input-first" 
+                        pattern="" 
+                        required >
                         <svg class="" widht="18" heigt="24">
                             <use hreff=""></use>
                         </svg>
@@ -492,9 +504,8 @@
                             <use hreff=""></use>
                         </svg>
                     </span>
-                    <p>I accept the terms and conditions of the
+                    I accept the terms and conditions of the
                         <a href="" class="">Privacy Policy</a>
-                    </p>
                     </label>
                     </div>
                     <button class="" type="submit" name="submit">submit</button>
