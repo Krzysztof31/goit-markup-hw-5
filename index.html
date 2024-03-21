@@ -434,49 +434,60 @@
             placeholder="E-mail"
             >
         </label>
-        <button type="submit" class="subscirbe-button">Subscirbe<svg>
-            <use></use>
-        </svg>
-       </button>
+        <button type="submit" class="subscirbe-button">Subscirbe</button>
         </form>
         
     </div>
  </div>
     </Footer>
-    <div class="modal">
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="closing-button"></button>
         <p class="modal-paragraf">Leave your contacts and we will call you back</p>
-        <ul class="input-list">
-            <li class="modal-input">
-                <label>Name</label>
+        <form class="input-list">
+                <div class="input-div">
+                <label class="modal-input" for="user-name">Name</label>
+                 <div class="input-icon">
+                <input
+                 type="text"
+                 name="user-name"
+                 class="input-first">
+                </div>
+                 </div>
+            
+            <div class="input-div">
+                <label class="modal-input">Phone</label>
+                <div>
                  <input
                  type="text"
-                 name="name"
-                 placeholder=""
-                 required>
-            </li>
-            <li class="modal-input">
-                <label>Phone</label>
-                 <input
-                 type="number"
                  name="phone"
-                 required>
-            </li>
+                 class="input-first">
+                </div>
+            </div>
+          
 
-            <li class="modal-input">
-                <label>Email</label>
+            <div class="input-div">
+                <label class="modal-input">Email</label>
+                <div>
                 <input
                 type="email"
                 name="email"
-                placeholder="">
-            </li>
-            <li class="modal-input-text">
-                <label>Comment</label>
-                <input type="text">
-            </li>
-       </ul>
-        <!-- chech box -->
-        <button></button>
-
+                class="input-first"></div></div>
+           
+        <div class="input-div">
+                <label class="modal-input">Comment</label>
+                <div>
+                <input type="text"
+                name="Comment"
+                class="input-first">
+            </div>
+        </div>
+                <!-- chech box -->
+            <button></button>
+       </form>
+        
+        
+</div>
     </div>
 
     
