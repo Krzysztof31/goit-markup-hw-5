@@ -827,9 +827,9 @@ margin-bottom: 16px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    width:100%;
+    width: 100%;
     height: 120px;
-    padding: 8px 16px;
+    
     border-radius: 4px;
     text-align: start;
     resize: none;
@@ -904,7 +904,7 @@ margin-bottom: 16px;
             border-radius: 2px;
 
     }
-    .coment-box::placeholder{ 
+    .coment-box-input::placeholder{ 
         font-family: "Roboto",sans-serif;
         font-size: 12px;
         font: 400;
@@ -912,6 +912,4 @@ margin-bottom: 16px;
         letter-spacing: 0.04em;
         color: rgb(46, 47, 66, 0.4);
     }
-    .icon-privacy{
-        
-    }
+    
