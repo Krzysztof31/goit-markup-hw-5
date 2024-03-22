@@ -910,8 +910,8 @@ margin-bottom: 16px;
 
     }
     .privacy-area:checked + .modal-check-text .check-box-icon{
-        background-color: var(--iris);
-        fill: var(--white);
+        background-color: var(--ocean);
+        fill:var(--cloud);
         border: none;
        
     }
