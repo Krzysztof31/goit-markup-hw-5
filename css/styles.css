@@ -884,7 +884,7 @@ margin-bottom: 16px;
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
-.privacy-area:checked + .modal-input .check-box-input .icon-privacy{
+.privacy-area:checked + .modal-input .check-box-input{
     fill: var(--cloud);
     border: none;
     background-color: var(--ocean);
@@ -904,5 +904,11 @@ margin-bottom: 16px;
             fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
             border-radius: 2px;
 
+    }
+    .coment-box:placeholder-shown{
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: var(--light-slate);
     }
     
