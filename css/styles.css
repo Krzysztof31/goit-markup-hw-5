@@ -904,12 +904,4 @@ margin-bottom: 16px;
             border-radius: 2px;
 
     }
-    .coment-box-input::placeholder{ 
-        font-family: "Roboto",sans-serif;
-        font-size: 12px;
-        font: 400;
-        line-height: 1.7;
-        letter-spacing: 0.04em;
-        color: rgb(46, 47, 66, 0.4);
-    }
     
